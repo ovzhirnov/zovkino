@@ -1,0 +1,2 @@
+// JavaScript Document
+document.write("<style type='text/css'>.choose a, .choose a:visited{font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;	font-size:14px;color:#5C2552;text-align:center;background-color:#F0F0F0;width:180px;text-decoration:none;display:block;}.choose a:hover{	text-decoration:underline;}</style><div class='choose' align='center'><a href='http://chooseus.ru' target='_blank'><img src='images/chooseus/london.jpg' width='180'><br /><b>ФОТОШТОРЫ</b><br />Интернет-магазин<br />Скидки. Доставка по РФ<br /></a></div>");

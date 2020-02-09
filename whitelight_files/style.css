@@ -1,0 +1,532 @@
+html{background:#d2d5d7 url(../images/bg-page.jpg) no-repeat 50% 0;}
+body{
+	margin:0;
+	color:#192026;
+	font:20px/26px Georgia, "Times New Roman", Times, serif;
+	min-width:1000px;
+	background: url(../images/bg-footer-page.png) repeat-x 0 100%;
+}
+img{border-style:none;}
+a{text-decoration:none; color:#8202cc;}
+a:hover{text-decoration:underline;}
+input,
+textarea,
+select{
+	font:100% Georgia, "Times New Roman", Times, serif;
+	vertical-align:middle;
+	color:#000;
+}
+form,fieldset{
+	margin:0;
+	padding:0;
+	border-style:none;
+}
+q{quotes:none;}
+q:before{content:''}
+q:after{content:''}
+/* wrapper */
+#wrapper{
+	width:100%;
+	overflow:hidden;
+	position:relative;
+}
+.w1{
+	width:1000px;
+	margin:0 auto;
+}
+.w1:after{
+	content:"";	display:block;	clear:both;
+}
+/* intro */
+.intro{
+	width:100%;
+	position:relative;
+	padding:31px 0 0 0;
+	height:502px;
+}
+.intro:after{
+	content:"";	display:block;	clear:both;
+}
+/* logo */
+.logo{
+	background: url(../images/logo.png) no-repeat;
+	width: 323px;
+	height: 53px;
+	text-indent:-9999px;
+	overflow:hidden;
+	display:block;
+	margin:0 auto;
+}
+.logo a{
+	height:100%;
+	display:block;
+}
+.intro .photo{
+	position:absolute;
+	left:-28px;
+	bottom:0;
+}
+.intro .photo img{vertical-align:top;}
+.intro .text-holder{
+	overflow:hidden;
+	padding:100px 29px 0 340px;
+}
+.intro .heading{
+	overflow:hidden;
+	margin:0 0 0 -10px;
+	padding:0 0 9px;
+}
+.intro .heading img{
+	float:right;
+	margin:6px 0 0 28px;
+}
+.intro h1{
+	font:45px/50px 'Roboto Slab', Georgia, "Times New Roman", Times, serif;
+	color:#00c6ff;
+	text-align:right;
+	margin:0;
+}
+.intro h1 span{padding:0 10px 0 0;}
+.intro h1 strong{
+	font-size:65px;
+	line-height:70px;
+	color:#0274cc;
+	display:block;
+	margin:-14px 0 0;
+}
+.intro .list{
+	list-style:none;	margin:0;	padding:0 0 0 4px;
+	overflow:hidden;
+	font-size:22px;
+	line-height:30px;
+	color:#013862;
+}
+.intro .list li{
+	background: url(../images/separator-01.png) no-repeat 19px 0;
+	overflow:hidden;
+	padding:18px 0 12px 75px;
+	position:relative;
+}
+.intro .list li:first-child{background:none;}
+.number{
+	background: url(../images/bg-number1.png) no-repeat;
+	width: 43px;
+	height: 43px;
+	font:bold 17px/43px 'Roboto Slab', Georgia, "Times New Roman", Times, serif;
+	color:#0274cc;
+	text-align:center;
+	position:absolute;
+	left:0;
+	top:10px;
+}
+.number.alt2{background: url(../images/bg-number2.png) no-repeat;}
+.number.alt3{background: url(../images/bg-number3.png) no-repeat;}
+/* img-list */
+.img-list{
+	list-style:none;	margin:-18px -20px 31px;	padding:0;
+	overflow:hidden;
+	text-align:center;
+}
+.img-list li{
+	width:297px;
+	height:388px;
+	margin:0 21px 0 21px;
+	position:relative;
+	text-align:center;
+	display:inline-block;
+	vertical-align:top;
+}
+*+html .img-list li{display:inline;}
+.img-list .text-holder{
+	background: url(../images/bg-text-holder.png) no-repeat;
+	width:235px;
+	padding:10px 31px 20px;
+	height: 67px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	font:bold 22px/25px 'Roboto Slab', Georgia, "Times New Roman", Times, serif;
+	color:#fff;
+}
+.img-list .text-holder p{margin:0;}
+.img-list img{vertical-align:top;}
+.img-list .text-holder.alt{
+	background: url(../images/bg-text-holder2.png) no-repeat;
+	width:235px;
+	height:92px;
+}
+.img-list .alt-img{margin:0 0 0 -50px;}
+.text-block{
+	width:627px;
+	margin:0 0 42px;
+	padding:34px 30px 22px 343px;
+	font-size:20px;
+	line-height:26px;
+	color:#013862;
+	background: url(../images/bg-text-block.png) repeat-y;
+	box-shadow:0 0 3px rgba(0,0,0,0.3);	-webkit-box-shadow:0 0 3px rgba(0,0,0,0.3);
+	position:relative;
+}
+.text-block:after{
+	content:"";	display:block;	clear:both;
+}
+.text-block p{margin:0 0 26px;}
+.text-block .img{
+	position:absolute;
+	left:26px;
+	top:-43px;
+}
+/* photo-box */
+.photo-box{
+	overflow:hidden;
+	padding:0 0 15px;
+}
+.photo-box h2{
+	font:bold 44px/50px 'Roboto Slab', Georgia, "Times New Roman", Times, serif;
+	color:#005f86;
+	margin:0 0 35px;
+	text-align:center;
+}
+.photo-list{
+	list-style:none;	margin:0 -40px 0 -3px;	padding:0;
+	overflow:hidden;
+}
+.photo-list li{
+	width:486px;
+	float:left;
+	position:relative;
+	padding:0 34px 24px 0;
+}
+.photo-list img{
+	vertical-align:top;
+}
+.photo-list .info{
+	position:absolute;
+	left:3px;
+	bottom:22px;
+	font-size:20px;
+	line-height:30px;
+	color:#013862;
+}
+.photo-list .info span{color:#879198;}
+.info-block{
+	width:100%;
+	padding:0 0 18px;
+}
+.info-block:after{
+	content:"";	display:block;	clear:both;
+}
+.info-block h2{
+	font:bold 44px/50px 'Roboto Slab', Georgia, "Times New Roman", Times, serif;
+	color:#005f86;
+	margin:0 0 25px;
+	text-align:center;
+}
+.info-block .text-box{
+	overflow:hidden;
+	text-align:center;
+	padding:0 0 18px;
+}
+.info-block .text-box p{margin:0 0 10px;}
+/* advantages-list */
+.advantages-list{
+	width:100%;
+	list-style:none;	margin:0;	padding:0;
+	font-size:22px;
+	line-height:30px;
+	color:#fff;
+	text-shadow:0 1px 1px #2d3942;
+	text-align:center;
+}
+.advantages-list:after{
+	content:"";	display:block;	clear:both;
+}
+.advantages-list li{
+	background: url(../images/bg-box-01.png) no-repeat 100% 0;
+	height:75px;
+	padding:15px 150px 30px;
+	position:relative;
+}
+.advantages-list li.alignright{background: url(../images/bg-box-02.png) no-repeat;}
+.advantages-list .img-holder{
+	position:absolute;
+	left:-2px;
+	top:-17px;
+}
+.advantages-list .img-holder img{
+	vertical-align:top;
+	position:relative;
+	z-index:10;
+}
+.advantages-list .shadow{
+	background: url(../images/shadow-01.png) no-repeat;
+	width: 87px;
+	height: 90px;
+	position:absolute;
+	right:-34px;
+	top:17px;
+}
+.advantages-list .text-holder{
+	height:60px;
+	overflow:hidden;
+}
+.advantages-list p{margin:0;}
+.advantages-list .alignright .img-holder{
+	left:auto;
+	right:-2px;
+}
+.advantages-list .alignright .shadow{
+	background: url(../images/shadow-02.png) no-repeat;
+	right:auto;
+	left:-34px;
+}
+/* comment-box */
+.comment-box{
+	margin:0 0 6px -3px;
+	background: url(../images/bg-comment-box.png) no-repeat;
+	width: 1006px;
+	height: 422px;
+	position:relative;
+}
+.comment-box .photo{
+	position:absolute;
+	right:13px;
+	bottom:20px;
+}
+.comment-box .photo img{vertical-align:top;}
+.comment-box .text-holder{
+	overflow:hidden;
+	font-size:20px;
+	line-height:26px;
+	color:#192026;
+	padding:62px 330px 10px 32px;
+}
+.comment-box .text-holder p{margin:0 0 26px;}
+.comment-box .text-holder span{
+	display:block;
+	color:#9198a0;
+}
+/* order-box */
+.order-box{
+	background: url(../images/bg-order-box.png) no-repeat;
+	width:940px;
+	height:416px;
+	padding:37px 30px 0;
+	position:relative;
+}
+.discount{
+	background: url(../images/bg-discount.png) no-repeat;
+	width:131px;
+	height:129px;
+	padding:48px 0 0 29px;
+	font:bold 18px/22px 'Roboto Slab', Georgia, "Times New Roman", Times, serif;
+	color:#0ca2ea;
+	position:absolute;
+	left:46px;
+	top:58px;
+}
+.discount span{
+	padding:0 0 0 4px;
+}
+.discount strong{
+	margin:-13px 0 0;
+	display:block;
+	font-size:67px;
+	line-height:70px;
+	color:#8202cc;
+	display:block;
+}
+.order-box .title{
+	width:280px;
+	font:33px/29px 'Roboto Slab', Georgia, "Times New Roman", Times, serif;
+	position:absolute;
+	left:228px;
+	top:97px;
+	color:#fff;
+}
+.order-box .title span{
+	font-size:55px;
+	line-height:60px;
+	margin:-10px 0 0;
+	display:block;
+}
+/* timer */
+.timer{
+	width:284px;
+	position:absolute;
+	left:230px;
+	bottom:33px;
+	font-size:20px;
+	line-height:30px;
+	color:#fff;
+	text-align:center;
+}
+.timer p{margin:0 0 7px;}
+.old-price{
+	background: url(../images/bg-old-price.png) no-repeat;
+	width:127px;
+	height:48px;
+	text-align:center;
+	font-size:20px;
+	line-height:30px;
+	color:#297ea2;
+	position:absolute;
+	left:82px;
+	top:268px;
+	padding:16px 0 0 5px;
+}
+.price{
+	background: url(../images/bg-price.png) no-repeat;
+	width:187px;
+	height:77px;
+	font-size:33px;
+	line-height:40px;
+	font-weight:bold;
+	color:#8202cc;
+	text-align:center;
+	position:absolute;
+	left:198px;
+	top:217px;
+	padding:27px 0 0 10px;
+}
+.price span{font-weight:normal;}
+/* order-form */
+.order-form{
+	background: url(../images/bg-order-form.png) no-repeat;
+	width:364px;
+	padding:57px 30px 0;
+	height:323px;
+	float:right;
+}
+.order-form .row{
+	overflow:hidden;
+	padding:0 0 22px;
+}
+.order-form label{
+	font-size:22px;
+	line-height:30px;
+	color:#185e89;
+	display:block;
+	padding:0 0 7px;
+}
+.order-form .text{
+	overflow:hidden;
+	background: url(../images/bg-text.png) no-repeat;
+	width: 359px;
+	height: 34px;
+}
+.order-form .text input{
+	background:none;
+	border:none;
+	padding:0 10px;
+	width:339px;
+	height:34px;
+	font-size:16px;
+	line-height:34px;
+	color:#185e89;
+	float:left;
+}
+.order-form .info{
+	display:block;
+	font-size:22px;
+	line-height:30px;
+	color:#185e89;
+	padding:0 0 18px;
+}
+.btn-order{
+	background: url(../images/bg-btn-order.png) no-repeat;
+	width: 236px;
+	height: 58px;
+	border:none;
+	font:bold 26px/56px 'Roboto Slab', Georgia, "Times New Roman", Times, serif;
+	color:#0c5175;
+	padding:0 0 4px;
+	cursor:pointer;
+	display:block;
+	margin:0 auto;
+}
+/* footer */
+#footer{
+	overflow:hidden;
+	font-size:16px;
+	line-height:26px;
+	color:#92a6ae;
+	padding:53px 0;
+}
+#footer .holder{
+	width:500px;
+	float:left;
+}
+#footer p{margin:0;}
+#footer address{
+	width:455px;
+	float:right;
+	color:#50717d;
+	margin:0;
+	font-style:normal;
+}
+.footer-panel{
+	width:100%;
+	position:fixed;
+	left:0;
+	bottom:0;
+	z-index:100;
+}
+.footer-panel .holder{
+	background:url(../images/bg-footer-panel.png) no-repeat;
+	width: 1000px;
+	height: 241px;
+	padding:6px 0 0;
+	margin:0 auto;
+	overflow:hidden;
+	font-size:22px;
+	line-height:30px;
+	color:#fff;
+	text-align:center;
+	position:relative;
+}
+.footer-panel .close{
+	background: url(../images/close.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	position:absolute;
+	right:0;
+	top:49px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+.footer-panel h2{
+	font:35px/36px 'Roboto Slab', Georgia, "Times New Roman", Times, serif;
+	color:#fff;
+	margin:0;
+}
+.footer-panel p{margin:0 0 16px;}
+.footer-panel .link{
+	display:block;
+	background: url(../images/bg-link.png) no-repeat;
+	width: 236px;
+	height: 58px;
+	margin:0 auto;
+	color:#0b4852;
+	font:26px/56px 'Roboto Slab', Georgia, "Times New Roman", Times, serif;
+	text-shadow:0 1px 1px #fff;
+}
+.footer-panel .text{
+	background: url(../images/text.png) no-repeat;
+	width: 318px;
+	height: 30px;
+	text-indent:-9999px;
+	overflow:hidden;
+	position:absolute;
+	left:338px;
+	top:13px;
+}
+.footer-panel .number-product{
+	display:block;
+	margin:0 auto 21px;
+	font:bold 55px/60px 'Roboto Slab', Georgia, "Times New Roman", Times, serif;
+	width:70px;
+	height:60px;
+	text-align:center;
+	overflow:hidden;
+}

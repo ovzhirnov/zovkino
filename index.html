@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Новинки кино смотреть онлайн бесплатно, скачать новые фильмы через торрент</title>
+<meta name="Title" content='Новинки кино смотреть онлайн бесплатно, скачать новые фильмы через торрент' />
+<META http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<META name="description" content="Новинки кино смотреть онлайн бесплатно, скачать новые фильмы через торрент, с летитбит, с letitbit, с vip-file, с файлообменников">
+<META name="keywords" content="Новинки кино смотреть онлайн бесплатно, скачать новые фильмы через торрент, онлайн кинотеатр, боевики, фантастика, мистика, ужасы, мелодрамы, детские, триллеры, катастрофы, комедии, музыкальные, анимационные, мультфильмы, отечественные, фентази, военные, вестерн, детективы, криминал, исторические, документальные, спортивные, эротические, биографические, любовные романы, приключения, обучающие, без регистрации, с торрента, с летитбит, с letitbit, с vip-file, с файлообменников">
+<meta name="revisit-after" content="7 day">
+<META content="index, follow" name="robots">
+<link href="style.css" type="text/css" rel="stylesheet">
+<link rel="icon" href="favicon.png" type="image/x-icon">
+<meta name='yandex-verification' content='57d9150c5c38989f' />
+<meta name="google-site-verification" content="TWIpc7cOTid2yfp9vo90jiflUrzk79Gz_0I55XJbhK4" />
+</head>
+
+
+<body>
+<div id="main_body">
+
+	<table border="0" id="tab">
+		<tr>
+			<td width="1200" height="200" colspan="3">
+			<?php require "header.php"; ?>			
+			</td>
+		</tr>
+		<tr>
+		
+			<td width="200" valign="top">
+			
+			<?php require ("basic_menu.php"); ?>
+			
+			</td>
+		
+			<td width="800">
+				<table width='800' border='0' cellpadding='0' cellspacing='0'>
+					<tr><td  height='19' background='images/pres_title.jpg'><div class='pres_title' align="center">Сегодня: <?php require ("data.php"); ?></div></td></tr>
+					<tr><td class="blog">
+Во всем мире наверно не найдется человека, который был бы абсолютно равнодушен к такому виду искусства как кинематограф. Во всем разнообразии существующих жанров, наверняка найдется хотя бы один, который бы тронул чувства любого! Во всемирной сети Интернет можно найти огромное количество фильмов с самым разнообразным качеством видео и озвучивания, которые Вам предлагают скачать или просмотреть онлайн за определенную плату в виде СМС или подобной. У нас вы сможете найти фильм на любой интересующий вас жанр и любимую Вами тему и посмотреть его в онлайн кинотеатре либо скачать совершенно бесплатно. Наша коллекция фильмов содержит только самые качественные с точки зрения видео и звука, так что определив понравившийся, Вы не ошибетесь в своем выборе. Приятного Вам просмотра! 
+					
+					
+					
+					</td></tr>
+					<tr><td  height='19' background='images/pres_title.jpg'></td></tr>
+				</table><br>
+<!--<center>
+<script language="javascript">
+document.write ("<ifr"+"ame src=\"ht"+"tp://out.pladform.ru/player?pl=40379&playlistid=35392\" width=\"720\" height=\"480\" fr"+"ameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowfullscreen></if"+"rame>");
+</script>
+</center><br />-->
+			<?php 
+				$np=1;
+				$ganr='all';
+				require ("presents.php");
+
+//показываем ссылки на все страницы 2 у.в.
+?>
+<div style="display:none">
+<?php
+$it=0;
+echo "<table>";
+for ($vsessil=1;$vsessil<=$kolstr;$vsessil++)
+{
+$it++;
+if ($it==1) {echo '<tr>';}
+echo "<td><a href='show-$ganr-$vsessil.html'>$ganr-$vsessil</a></td>";
+if ($it==20) {echo '</tr>'; $it=0;}
+}
+//if ($it<>20) {echo '</tr>';}
+echo "</table>";
+?>
+</div>
+<?php
+//конец - показываем ссылки на все страницы 2 у.в.
+
+			?>
+			</td>
+			<td width="200" valign="top">
+            	<?php require "right_col.php"; ?>
+			</td>
+		</tr>
+	</table>
+	  
+	<?php require "footer.php"; ?>
+</div>
+
+</body>
+</html>

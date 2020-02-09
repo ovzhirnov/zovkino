@@ -1,0 +1,30 @@
+#timer{
+	position:relative;
+	width:284px;
+	margin:0 auto;
+}
+.cntSeparator {
+	font-size: 1px;
+	color: #000;
+	height:100%;
+	background:url(../images/separator-02.png) center 13px no-repeat;
+	width: 7px;
+	margin:0 9px 0 6px;
+}
+.desc { 
+	margin:0px 0 0 50px;
+	color: #6b767f;
+	overflow: hidden;
+}
+.desc div {
+	float: left;
+	font-family: Arial;
+	width: 97px;
+	margin-right: 25px;
+	font-size: 13px;
+	font-weight: bold;
+	text-align:center;
+}
+.desc div:last-child{
+	margin-right: 0px;
+}

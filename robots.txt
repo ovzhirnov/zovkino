@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /2c24f9969d3c3948cafd13b00adf5068/
+Disallow: /*.php
+Disallow: /shakes_rek.js
+Host: zovkino.ru
+Sitemap: http://zovkino.ru/sitemap.xml
