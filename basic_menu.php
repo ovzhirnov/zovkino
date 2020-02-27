@@ -1,33 +1,33 @@
 <table align="center" width="200" border="0" cellpadding="0" cellspacing="0">
-<tr><td class="title_mnu">ПО ЖАНРАМ</td></tr>
-	<tr><td class="menu">
+<tr><td class="title_mnu">ДЋГЋ Д†Е”ГЌДђЕ”Дљ</td></tr>
+	<tr><td class="menu"> 
     <ul>
-	<li><a href="show-all-1.html" title="смотреть фильмы все жанры">все жанры</a></li>
-	<li><a href="show-action-1.html" title="смотреть фильмы боевики">боевики</a></li>
-	<li><a href="show-fantastic-1.html" title="смотреть фильмы фантастика">фантастика</a></li>
-	<li><a href="show-mystic-1.html" title="смотреть фильмы мистика">мистика</a></li>
-	<li><a href="show-horror-1.html" title="смотреть фильмы ужасы">ужасы</a></li>
-	<li><a href="show-honey-1.html" title="смотреть фильмы мелодрамы">мелодрамы</a></li>
-	<li><a href="show-child-1.html" title="смотреть фильмы детские">детские</a></li>
-	<li><a href="show-thriller-1.html" title="смотреть фильмы триллеры">триллеры</a></li>
-	<li><a href="show-crash-1.html" title="смотреть фильмы катастрофы">катастрофы</a></li>
-	<li><a href="show-comedy-1.html" title="смотреть фильмы комедии">комедии</a></li>
-	<li><a href="show-music-1.html" title="смотреть фильмы музыкальные">музыкальные</a></li>
-	<li><a href="show-mult-1.html" title="смотреть фильмы анимационные">анимационные</a></li>
-	<li><a href="show-otech-1.html" title="смотреть фильмы отечественные">отечественные</a></li>
-	<li><a href="show-fentaz-1.html" title="смотреть фильмы фэнтази">фэнтази</a></li>
-	<li><a href="show-voen-1.html" title="смотреть фильмы военные">военные</a></li>
-	<li><a href="show-vestern-1.html" title="смотреть фильмы вестерн">вестерн</a></li>
-	<li><a href="show-detect-1.html" title="смотреть фильмы детективы">детективы</a></li>
-	<li><a href="show-kriminal-1.html" title="смотреть фильмы криминал">криминал</a></li>
-	<li><a href="show-history-1.html" title="смотреть фильмы исторические">исторические</a></li>
-	<li><a href="show-document-1.html" title="смотреть фильмы документальные">документальные</a></li>
-	<li><a href="show-sport-1.html" title="смотреть фильмы спортивные">спортивные</a></li>
-	<li><a href="show-erot-1.html" title="смотреть фильмы эротические">эротические</a></li>
-	<li><a href="show-biogr-1.html" title="смотреть фильмы биографические">биографические</a></li>
-	<li><a href="show-roman-1.html" title="смотреть фильмы любовные романы">любовные романы</a></li>
-	<li><a href="show-advent-1.html" title="смотреть фильмы приключения">приключения</a></li>
-	<li><a href="show-obuch-1.html" title="смотреть фильмы обучающие">обучающие</a></li>
+	<li><a href="show-all-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± ГўЕ„Дє Д‡Е•Г­Д‘Е±">ГўЕ„Дє Д‡Е•Г­Д‘Е±</a></li>
+	<li><a href="show-action-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± ГЎГ®ДєГўДЌД™ДЌ">ГЎГ®ДєГўДЌД™ДЌ</a></li>
+	<li><a href="show-fantastic-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± ГґЕ•Г­Е€Е•Е„Е€ДЌД™Е•">ГґЕ•Г­Е€Е•Е„Е€ДЌД™Е•</a></li>
+	<li><a href="show-mystic-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± Д›ДЌЕ„Е€ДЌД™Е•">Д›ДЌЕ„Е€ДЌД™Е•</a></li>
+	<li><a href="show-horror-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± ГіД‡Е•Е„Е±">ГіД‡Е•Е„Е±</a></li>
+	<li><a href="show-honey-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± Д›ДєГ«Г®Г¤Д‘Е•Д›Е±">Д›ДєГ«Г®Г¤Д‘Е•Д›Е±</a></li>
+	<li><a href="show-child-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± Г¤ДєЕ€Е„Д™ДЌДє">Г¤ДєЕ€Е„Д™ДЌДє</a></li>
+	<li><a href="show-thriller-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± Е€Д‘ДЌГ«Г«ДєД‘Е±">Е€Д‘ДЌГ«Г«ДєД‘Е±</a></li>
+	<li><a href="show-crash-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± Д™Е•Е€Е•Е„Е€Д‘Г®ГґЕ±">Д™Е•Е€Е•Е„Е€Д‘Г®ГґЕ±</a></li>
+	<li><a href="show-comedy-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± Д™Г®Д›ДєГ¤ДЌДЌ">Д™Г®Д›ДєГ¤ДЌДЌ</a></li>
+	<li><a href="show-music-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± Д›ГіГ§Е±Д™Е•Г«ГјГ­Е±Дє">Д›ГіГ§Е±Д™Е•Г«ГјГ­Е±Дє</a></li>
+	<li><a href="show-mult-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± Е•Г­ДЌД›Е•Г¶ДЌГ®Г­Г­Е±Дє">Е•Г­ДЌД›Е•Г¶ДЌГ®Г­Г­Е±Дє</a></li>
+	<li><a href="show-otech-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± Г®Е€ДєГ·ДєЕ„Е€ГўДєГ­Г­Е±Дє">Г®Е€ДєГ·ДєЕ„Е€ГўДєГ­Г­Е±Дє</a></li>
+	<li><a href="show-fentaz-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± ГґГЅГ­Е€Е•Г§ДЌ">ГґГЅГ­Е€Е•Г§ДЌ</a></li>
+	<li><a href="show-voen-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± ГўГ®ДєГ­Г­Е±Дє">ГўГ®ДєГ­Г­Е±Дє</a></li>
+	<li><a href="show-vestern-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± ГўДєЕ„Е€ДєД‘Г­">ГўДєЕ„Е€ДєД‘Г­</a></li>
+	<li><a href="show-detect-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± Г¤ДєЕ€ДєД™Е€ДЌГўЕ±">Г¤ДєЕ€ДєД™Е€ДЌГўЕ±</a></li>
+	<li><a href="show-kriminal-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± Д™Д‘ДЌД›ДЌГ­Е•Г«">Д™Д‘ДЌД›ДЌГ­Е•Г«</a></li>
+	<li><a href="show-history-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± ДЌЕ„Е€Г®Д‘ДЌГ·ДєЕ„Д™ДЌДє">ДЌЕ„Е€Г®Д‘ДЌГ·ДєЕ„Д™ДЌДє</a></li>
+	<li><a href="show-document-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± Г¤Г®Д™ГіД›ДєГ­Е€Е•Г«ГјГ­Е±Дє">Г¤Г®Д™ГіД›ДєГ­Е€Е•Г«ГјГ­Е±Дє</a></li>
+	<li><a href="show-sport-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± Е„ДЏГ®Д‘Е€ДЌГўГ­Е±Дє">Е„ДЏГ®Д‘Е€ДЌГўГ­Е±Дє</a></li>
+	<li><a href="show-erot-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± ГЅД‘Г®Е€ДЌГ·ДєЕ„Д™ДЌДє">ГЅД‘Г®Е€ДЌГ·ДєЕ„Д™ДЌДє</a></li>
+	<li><a href="show-biogr-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± ГЎДЌГ®ДѓД‘Е•ГґДЌГ·ДєЕ„Д™ДЌДє">ГЎДЌГ®ДѓД‘Е•ГґДЌГ·ДєЕ„Д™ДЌДє</a></li>
+	<li><a href="show-roman-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± Г«ЕЈГЎГ®ГўГ­Е±Дє Д‘Г®Д›Е•Г­Е±">Г«ЕЈГЎГ®ГўГ­Е±Дє Д‘Г®Д›Е•Г­Е±</a></li>
+	<li><a href="show-advent-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± ДЏД‘ДЌД™Г«ЕЈГ·ДєГ­ДЌЛ™">ДЏД‘ДЌД™Г«ЕЈГ·ДєГ­ДЌЛ™</a></li>
+	<li><a href="show-obuch-1.html" title="Е„Д›Г®Е€Д‘ДєЕ€Гј ГґДЌГ«ГјД›Е± Г®ГЎГіГ·Е•ЕЈЕЇДЌДє">Г®ГЎГіГ·Е•ЕЈЕЇДЌДє</a></li>
     </ul>
     </td></tr> 
 </table>
