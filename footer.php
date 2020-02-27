@@ -7,8 +7,8 @@ escape(document.referrer)+((typeof(screen)=="undefined")?"":
 ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
 screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 ";"+Math.random()+
-"' alt='' title='LiveInternet: показано число просмотров за 24"+
-" часа, посетителей за 24 часа и за сегодня' "+
+"' alt='' title='LiveInternet: ГЇГ®ГЄГ Г§Г Г­Г® Г·ГЁГ±Г«Г® ГЇГ°Г®Г±Г¬Г®ГІГ°Г®Гў Г§Г  24"+
+" Г·Г Г±Г , ГЇГ®Г±ГҐГІГЁГІГҐГ«ГҐГ© Г§Г  24 Г·Г Г±Г  ГЁ Г§Г  Г±ГҐГЈГ®Г¤Г­Гї' "+
 "border='0' width='88' height='31'><\/a>")
 //--></script><!--/LiveInternet-->
 </noindex>
@@ -16,16 +16,16 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 <div class="footprint">
 <table width="100%">
 <tr><td background="images/pres_title.jpg" align="center">
-<a href='http://zovkino.ru' title="на главную">* &copy; <?php echo date('Y');?> Новинки кино *</a>
+<a href='http://zovkino.ru' title="Г­Г  ГЈГ«Г ГўГ­ГіГѕ">* &copy; <?php echo date('Y');?> ГЌГ®ГўГЁГ­ГЄГЁ ГЄГЁГ­Г® *</a>
 </td>
 </tr>
 </table>
--- На данном ресурсе расположены только ссылки на скачивание и просмотр фильмов с файлообменников, мы не храним и не распространяем никакие материалы, дабы не нарушать закон о защите авторских прав --<br />
+-- ГЌГ  Г¤Г Г­Г­Г®Г¬ Г°ГҐГ±ГіГ°Г±ГҐ Г°Г Г±ГЇГ®Г«Г®Г¦ГҐГ­Г» ГІГ®Г«ГјГЄГ® Г±Г±Г»Г«ГЄГЁ Г­Г  Г±ГЄГ Г·ГЁГўГ Г­ГЁГҐ ГЁ ГЇГ°Г®Г±Г¬Г®ГІГ° ГґГЁГ«ГјГ¬Г®Гў Г± ГґГ Г©Г«Г®Г®ГЎГ¬ГҐГ­Г­ГЁГЄГ®Гў, Г¬Г» Г­ГҐ ГµГ°Г Г­ГЁГ¬ ГЁ Г­ГҐ Г°Г Г±ГЇГ°Г®Г±ГІГ°Г Г­ГїГҐГ¬ Г­ГЁГЄГ ГЄГЁГҐ Г¬Г ГІГҐГ°ГЁГ Г«Г», Г¤Г ГЎГ» Г­ГҐ Г­Г Г°ГіГёГ ГІГј Г§Г ГЄГ®Г­ Г® Г§Г Г№ГЁГІГҐ Г ГўГІГ®Г°Г±ГЄГЁГµ ГЇГ°Г Гў --<br />
 </div>
 <table width="100%">
 <tr><td background="images/pres_title.jpg" align="center">
 <div class="sapa">
-							<?php
+							<?php 
 								if (!strstr ($_SERVER["HTTP_USER_AGENT"],"Yandex") && !strstr ($_SERVER["HTTP_USER_AGENT"],"Google"))
 							{			
  
@@ -38,7 +38,7 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 </tr>
 </table>
 <?php require('tegi_create.php'); ?>
-<div style="display:none;"><a href="sitemap.xml" title="карта сайта">карта сайта</a></div>
+<div style="display:none;"><a href="sitemap.xml" title="ГЄГ Г°ГІГ  Г±Г Г©ГІГ ">ГЄГ Г°ГІГ  Г±Г Г©ГІГ </a></div>
 <?php 
 Mysql_close($conn); 
 ?>
